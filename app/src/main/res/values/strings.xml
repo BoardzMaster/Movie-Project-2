@@ -1,0 +1,60 @@
+<resources>
+    <string name="app_name">Popular_Movies</string>
+
+    <string name="Sort_settings">Sort By</string>
+    <string name="action_share">Share</string>
+
+
+    <string name="title_activity_detailed_movie">Movie Details</string>
+
+    <string name="MOVIE_KEY">MOVIE_KEY</string>
+
+    <string name="MOVIE_BASE_URL">http://api.themoviedb.org/3/discover/movie?</string>
+    <string name="MOVIE_TRAILER_URL">http://api.themoviedb.org/3/movie/</string>
+    <string name="MOVIE_REVIEW_URL">http://api.themoviedb.org/3/movie/</string>
+    <string name="PICTURE_REQUEST">http://image.tmdb.org/t/p/w185/</string>
+    <string name="USER_KEY">d80223bb6f95ce170ffefe7457c3c780</string>
+    <string name="POPULARITY">popularity.desc</string>
+    <string name="HIGHEST_RATED">vote_average.desc</string>
+
+    <string name="YOUTUBE_WATCH_URL">http://www.youtube.com/watch?</string>
+
+    <string name="Backdrop_image_file">Backdrop</string>
+    <string name="Poster_image_file">Poster</string>
+    <string name="IMAGES_DIR">/MovieImages</string>
+
+    <string name="activity_detailed_movie_title">Movie Title</string>
+    <string name="activity_detailed_release_data">Movie Release</string>
+    <string name="activity_detailed_release">Release</string>
+    <string name="activity_detailed_score">Score</string>
+    <string name="activity_detailed_synopsis">Synopsis</string>
+    <string name="activity_detailed_trailer">Trailers</string>
+    <string name="activity_detailed_review">Review By:</string>
+    <string name="activity_detailed_review_author">Author</string>
+    <string name="activity_detailed_review_content">Review content</string>
+    <string name="activity_detailed_favorite_add">Add to Favorite</string>
+    <string name="activity_detailed_favorite_added">Added to Favorite</string>
+
+
+    <string name="Pref_Label">Sort</string>
+    <!-- Label for popular films in unit preference [CHAR LIMIT=25] -->
+    <string name="pref_label_popularity">Popularity</string>
+    <!-- Label for highest rated films in unit preference [CHAR LIMIT=25] -->
+    <string name="pref_label_highest_rated">Highest Rated</string>
+    <!-- Label for highest rated films in unit preference [CHAR LIMIT=25] -->
+    <string name="pref_label_favorite">Favorite</string>
+
+    <!-- Key name in SharedPreferences [CHAR LIMIT=NONE] -->
+    <string name="pref_sort_key" translatable="false">types</string>
+    <!-- Value in SharedPreferences for Popular movies option [CHAR LIMIT=NONE] -->
+    <string name="pref_type_popularity" translatable="false">popular</string>
+    <!-- Value in SharedPreferences for Highest Rated movies option [CHAR LIMIT=NONE] -->
+    <string name="pref_type_highest_rated" translatable="false">high_rating</string>
+    <!-- Value in SharedPreferences for Highest Rated movies option [CHAR LIMIT=NONE] -->
+    <string name="pref_type_favorite" translatable="false">favorite</string>
+
+
+
+
+
+</resources>
